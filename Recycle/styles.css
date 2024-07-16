@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0.5em 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5em;
+}
+
+section p, section ol, section ul {
+    line-height: 1.6;
+}
+
+section ol li, section ul li {
+    margin: 0.5em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input[type="file"] {
+    margin: 1em 0;
+}
+
+form input[type="submit"] {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #4CAF50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
